@@ -1,0 +1,29 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# PyTest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Uploaded documents and caches
+data/uploads/*
+!data/uploads/.gitkeep
+data/sample_docs/*
+!data/sample_docs/.gitkeep
+!data/sample_docs/generate_samples.py
+*.log
+
+# HuggingFace & Torch cache (if local)
+.cache/
+models/

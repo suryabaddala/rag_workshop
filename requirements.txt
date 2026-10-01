@@ -1,0 +1,17 @@
+# Core Workshop UI
+streamlit>=1.35.0
+
+# Document Ingestion & Parsing
+pymupdf>=1.24.0
+python-docx>=1.1.0
+
+# Embedding & Similarity Computation (100% Local)
+sentence-transformers>=3.0.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Local LLM Communication (Ollama HTTP API)
+requests>=2.31.0
+
+# Unit Testing & Validation
+pytest>=8.0.0
